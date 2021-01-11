@@ -6,9 +6,9 @@ Param(
     [string]$Username,
 
     [Parameter(Position=3)]
-    [string]$Password
+    [string]$Pswd
 )
 
 Write-Host $Server
 Write-Host $Username
-Write-Host $Password
+Write-Host $Pswd
