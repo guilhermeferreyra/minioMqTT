@@ -15,7 +15,7 @@ $client->onMessage(function($message){
     $jsonPayload = json_decode($message->payload);
     echo $jsonPayload
     }
-});
+);
 
 $client->connect('localhost', 1885);
 
